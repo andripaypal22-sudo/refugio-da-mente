@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refúgio da Mente - Acolhimento, Ansiedade e Bem-Estar</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .breath-inhale { transform: scale(1.35); }
+        .breath-exhale { transform: scale(0.85); }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800 antialiased font-sans">
+
+    <!-- Navegação Sticky -->
+    <nav class="sticky top-0 z-50 bg-stone-50/90 backdrop-blur-md border-b border-stone-200/60">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2 text-emerald-800 font-semibold text-lg">
+                <i data-lucide="heart-handshake" class="w-6 h-6 text-emerald-600"></i>
+                <span>Refúgio da Mente</span>
+            </div>
+            <div class="hidden lg:flex gap-5 text-xs font-medium text-stone-600">
+                <a href="#crise" class="hover:text-emerald-700 transition-colors font-semibold text-rose-600">Crise & Pânico</a>
+                <a href="#diario" class="hover:text-emerald-700 transition-colors">Mensagem do Dia</a>
+                <a href="#respiracao" class="hover:text-emerald-700 transition-colors">Respiração</a>
+                <a href="#alimentos" class="hover:text-emerald-700 transition-colors">Alimentação</a>
+                <a href="#chas" class="hover:text-emerald-700 transition-colors">Chás & Difusores</a>
+                <a href="#exercicios" class="hover:text-emerald-700 transition-colors">Caminhadas & Esportes</a>
+                <a href="#oracoes" class="hover:text-emerald-700 transition-colors">Acolhimento</a>
+            </div>
+            <a href="#apoio" class="bg-emerald-700 hover:bg-emerald-800 text-white text-xs px-4 py-2 rounded-full font-medium transition-colors flex items-center gap-1.5">
+                <i data-lucide="phone-call" class="w-3.5 h-3.5"></i> Apoio 188
+            </a>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho Principal -->
+    <header class="py-12 md:py-16 px-4 bg-gradient-to-b from-emerald-100/40 to-stone-50 text-center">
+        <div class="max-w-3xl mx-auto space-y-4">
+            <span class="inline-block bg-emerald-100 text-emerald-800 text-xs px-3 py-1 rounded-full font-medium">Espaço de Paz, Acolhimento e Saúde Mental</span>
+            <h1 class="text-3xl md:text-5xl font-bold text-stone-800 tracking-tight">Um momento para respirar e desacelerar</h1>
+            <p class="text-stone-600 text-base md:text-lg">Você não precisa carregar tudo só. Este é o seu refúgio diário para encontrar calma, entender a ansiedade e reconectar-se com seu bem-estar.</p>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 py-8 space-y-16">
+
+        <!-- 1. SEÇÃO EMERGENCIAL: CRISES DE ANSIEDADE E SÍNDROME DO PÂNICO -->
+        <section id="crise" class="bg-rose-50/80 border border-rose-200/80 rounded-3xl p-6 md:p-8 shadow-sm space-y-6">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-rose-100 rounded-full flex items-center justify-center text-rose-600 shrink-0">
+                    <i data-lucide="shield-alert" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-bold text-stone-800">Está passando por uma crise de ansiedade ou pânico agora?</h2>
+                    <p class="text-xs md:text-sm text-stone-600">Lembre-se: a crise tem começo, meio e fim. Você está em segurança e isso vai passar.</p>
+                </div>
+            </div>
+
+            <!-- O que é o pânico? -->
+            <div class="bg-white p-5 rounded-2xl border border-rose-100 space-y-2 text-xs md:text-sm text-stone-700 leading-relaxed">
+                <h3 class="font-bold text-stone-800 text-base flex items-center gap-2">
+                    <i data-lucide="info" class="w-4 h-4 text-rose-500"></i> Entendendo a Síndrome do Pânico e a Crise
+                </h3>
+                <p>
+                    A crise de pânico é um disparo repentino do sistema de alarme natural do corpo (a resposta de "luta ou fuga"). Ela pode causar aceleração cardíaca, falta de ar, tontura, suor frio e uma sensação de perda de controle. <strong>Embora seja extremamente desconfortável, a crise de pânico NÃO é fatal nem causa parada cardíaca.</strong> É o seu corpo tentando te proteger de um perigo que não existe no momento.
+                </p>
+            </div>
+
+            <!-- Exercício de Ancoragem 5-4-3-2-1 -->
+            <div class="space-y-4">
+                <h3 class="font-bold text-stone-800 text-base flex items-center gap-2">
+                    <i data-lucide="anchor" class="w-5 h-5 text-rose-600"></i> Técnica de Ancoragem 5-4-3-2-1 (Para voltar ao presente)
+                </h3>
+                <p class="text-xs text-stone-500">Olhe ao seu redor e identifique pausadamente:</p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-5 gap-3 text-center">
+                    <div class="bg-white p-3 rounded-xl border border-rose-100 space-y-1">
+                        <span class="text-xl font-bold text-rose-600">5</span>
+                        <p class="text-xs text-stone-600 font-medium">Coisas que você pode <strong>VER</strong></p>
+                    </div>
+                    <div class="bg-white p-3 rounded-xl border border-rose-100 space-y-1">
+                        <span class="text-xl font-bold text-rose-600">4</span>
+                        <p class="text-xs text-stone-600 font-medium">Coisas que você pode <strong>TOCAR</strong></p>
+                    </div>
+                    <div class="bg-white p-3 rounded-xl border border-rose-100 space-y-1">
+                        <span class="text-xl font-bold text-rose-600">3</span>
+                        <p class="text-xs text-stone-600 font-medium">Sons que você pode <strong>OUVIR</strong></p>
+                    </div>
+                    <div class="bg-white p-3 rounded-xl border border-rose-100 space-y-1">
+                        <span class="text-xl font-bold text-rose-600">2</span>
+                        <p class="text-xs text-stone-600 font-medium">Cheiros que pode <strong>SENTIR</strong></p>
+                    </div>
+                    <div class="bg-white p-3 rounded-xl border border-rose-100 space-y-1">
+                        <span class="text-xl font-bold text-rose-600">1</span>
+                        <p class="text-xs text-stone-600 font-medium">Sabor que pode <strong>PROVAR</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. MENSAGEM DO DIA DINÂMICA -->
+        <section id="diario" class="bg-gradient-to-br from-emerald-50 to-teal-50/50 border border-emerald-100 rounded-3xl p-6 md:p-8 shadow-sm">
+            <div class="flex items-center justify-between mb-4">
+                <span id="data-atual" class="text-xs font-semibold uppercase tracking-wider text-emerald-700 bg-emerald-100/60 px-3 py-1 rounded-full"></span>
+                <i data-lucide="sun" class="text-amber-500 w-5 h-5"></i>
+            </div>
+            <h2 id="titulo-mensagem" class="text-xl md:text-2xl font-semibold text-stone-800 mb-2"></h2>
+            <p id="corpo-mensagem" class="text-stone-600 leading-relaxed italic text-base md:text-lg"></p>
+        </section>
+
+        <!-- 3. EXERCÍCIO DE RESPIRAÇÃO GUIADA (4-4-4) -->
+        <section id="respiracao" class="bg-white border border-stone-200/80 rounded-3xl p-6 md:p-10 shadow-sm text-center">
+            <div class="max-w-md mx-auto space-y-6">
+                <div>
+                    <h2 class="text-2xl font-bold text-stone-800">Exercício de Respiração Guiada</h2>
+                    <p class="text-stone-500 text-sm mt-1">Técnica 4-4-4 para acalmar o sistema nervoso e desacelerar o ritmo cardíaco.</p>
+                </div>
+                
+                <div class="relative w-48 h-48 mx-auto flex items-center justify-center my-8">
+                    <div id="circle-outer" class="absolute inset-0 bg-emerald-100 rounded-full transition-all duration-1000 ease-in-out opacity-60"></div>
+                    <div id="circle-inner" class="w-32 h-32 bg-emerald-600 rounded-full flex flex-col items-center justify-center text-white z-10 shadow-lg transition-transform duration-1000">
+                        <span id="breath-status" class="text-sm font-semibold">Inspirar</span>
+                        <span id="breath-timer" class="text-2xl font-bold mt-1">4</span>
+                    </div>
+                </div>
+
+                <button id="btn-breath" class="bg-emerald-700 hover:bg-emerald-800 text-white font-medium px-6 py-2.5 rounded-full shadow transition-colors inline-flex items-center gap-2">
+                    <i data-lucide="play" class="w-4 h-4"></i> Iniciar Respiração
+                </button>
+            </div>
+        </section>
+
+        <!-- 4. ALIMENTAÇÃO AMIGA DA MENTE -->
+        <section id="alimentos" class="space-y-6">
+            <div>
+                <span class="text-xs font-semibold uppercase tracking-wider text-emerald-700 bg-emerald-100/80 px-3 py-1 rounded-full">Nutrição & Neurotransmissores</span>
+                <h2 class="text-2xl font-bold text-stone-800 mt-2">Alimentos que Ajudam no Combate à Ansiedade</h2>
+                <p class="text-stone-500 text-sm">O intestino produz cerca de 90% da serotonina do corpo. O que você come afeta como você se sente.</p>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-4">
+                <div class="bg-white p-5 rounded-2xl border border-stone-200 shadow-sm space-y-2">
+                    <div class="w-8 h-8 bg-amber-100 rounded-lg flex items-center justify-center text-amber-700">
+                        <i data-lucide="apple" class="w-4 h-4"></i>
+                    </div>
+                    <h3 class="font-bold text-sm text-stone-800">Banana & Aveia</h3>
+                    <p class="text-xs text-stone-500 leading-relaxed">Ricos em Triptofano, aminoácido essencial para a produção de serotonina (hormônio do bem-estar).</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-stone-200 shadow-sm space-y-2">
+                    <div class="w-8 h-8 bg-emerald-100 rounded-lg flex items-center justify-center text-emerald-700">
+                        <i data-lucide="nut" class="w-4 h-4"></i>
+                    </div>
+                    <h3 class="font-bold text-sm text-stone-800">Castanhas & Sementes</h3>
+                    <p class="text-xs text-stone-500 leading-relaxed">Excelentes fontes de Magnésio, um mineral relaxante muscular que diminui o cortisol e o estresse.</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-stone-200 shadow-sm space-y-2">
+                    <div class="w-8 h-8 bg-teal-100 rounded-lg flex items-center justify-center text-teal-700">
+                        <i data-lucide="fish" class="w-4 h-4"></i>
+                    </div>
+                    <h3 class="font-bold text-sm text-stone-800">Peixes & Ômega-3</h3>
+                    <p class="text-xs text-stone-500 leading-relaxed">Protegem as células cerebrais, reduzem a inflamação e auxiliam na regulação do humor.</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-stone-200 shadow-sm space-y-2">
+                    <div class="w-8 h-8 bg-amber-100 rounded-lg flex items-center justify-center text-amber-700">
+                        <i data-lucide="cookie" class="w-4 h-4"></i>
+                    </div>
+                    <h3 class="font-bold text-sm text-stone-800">Chocolate Amargo (70%+)</h3>
+                    <p class="text-xs text-stone-500 leading-relaxed">Possui flavonoides e antioxidantes que reduzem o hormônio do estresse e aumentam a sensação de prazer.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. CHÁS CALMANTES & AROMATERAPIA (AFILIADOS AMAZON) -->
+        <section id="chas" class="space-y-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-2">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-emerald-700 bg-emerald-100/80 px-3 py-1 rounded-full">Fitoterapia e Aromaterapia</span>
+                    <h2 class="text-2xl font-bold text-stone-800 mt-2">Chás & Difusores Recomendados</h2>
+                    <p class="text-stone-500 text-sm">Rituais naturais de relaxamento para o corpo, mente e ambiente.</p>
+                </div>
+                <span class="text-[11px] text-stone-400 italic">*Como afiliado Amazon, podemos receber uma comissão por compras qualificadas sem custo extra para você.</span>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Chá 1 -->
+                <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between space-y-4">
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="bg-amber-100 text-amber-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Ansiedade & Estresse</span>
+                            <i data-lucide="coffee" class="w-5 h-5 text-amber-600"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-stone-800">Chá Leão Relaxa - Camomila & Cidreira</h3>
+                        <p class="text-xs text-stone-600 leading-relaxed">
+                            Combinação clássica para desacelerar no fim da tarde. Alivia a tensão muscular e suaviza pensamentos agitados.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-stone-100 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs text-stone-400">Caixa com sachês</span>
+                            <span class="text-xs font-bold text-emerald-800">Amazon Brasil</span>
+                        </div>
+                        <a href="https://www.amazon.com.br/s?k=cha+leao+relaxa+camomila" target="_blank" rel="noopener sponsored" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-medium py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 transition-colors">
+                            <i data-lucide="shopping-bag" class="w-4 h-4"></i> Ver Oferta na Amazon
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Chá 2 -->
+                <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between space-y-4">
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Sono Profundo</span>
+                            <i data-lucide="moon" class="w-5 h-5 text-emerald-600"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-stone-800">Casca de Mulungu In Natura</h3>
+                        <p class="text-xs text-stone-600 leading-relaxed">
+                            Potente calmante natural tradicionalmente indicado para quadros de insônia e ansiedade acentuada antes de dormir.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-stone-100 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs text-stone-400">Erva Natural 100g</span>
+                            <span class="text-xs font-bold text-emerald-800">Amazon Brasil</span>
+                        </div>
+                        <a href="https://www.amazon.com.br/s?k=cha+mulungu+in+natura" target="_blank" rel="noopener sponsored" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-medium py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 transition-colors">
+                            <i data-lucide="shopping-bag" class="w-4 h-4"></i> Ver Oferta na Amazon
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Difusor & Aromaterapia -->
+                <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between space-y-4">
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Aromaterapia</span>
+                            <i data-lucide="sparkles" class="w-5 h-5 text-purple-600"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-stone-800">Difusor Ultrassônico + Óleo de Lavanda</h3>
+                        <p class="text-xs text-stone-600 leading-relaxed">
+                            O aroma de Lavanda reduz o ritmo cardíaco e prepara o ambiente para um descanso tranquilo e relaxante.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-stone-100 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs text-stone-400">Aparelho + Óleo Essencial</span>
+                            <span class="text-xs font-bold text-emerald-800">Amazon Brasil</span>
+                        </div>
+                        <a href="https://www.amazon.com.br/s?k=difusor+ultrassonico+oleo+lavanda" target="_blank" rel="noopener sponsored" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-medium py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 transition-colors">
+                            <i data-lucide="shopping-bag" class="w-4 h-4"></i> Ver Oferta na Amazon
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CAMINHADAS & ESPORTES PARA A MENTE -->
+        <section id="exercicios" class="bg-stone-100/80 border border-stone-200 rounded-3xl p-6 md:p-8 space-y-6">
+            <div>
+                <span class="text-xs font-semibold uppercase tracking-wider text-emerald-700 bg-emerald-100/80 px-3 py-1 rounded-full">Movimento Consciente</span>
+                <h2 class="text-2xl font-bold text-stone-800 mt-2">Caminhadas, Esportes e a Mente</h2>
+                <p class="text-stone-500 text-sm">O exercício físico atua no cérebro como um anxiolítico natural, liberando endorfina e dopamina.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-5 rounded-2xl border border-stone-200 space-y-2">
+                    <div class="w-8 h-8 bg-emerald-100 rounded-lg flex items-center justify-center text-emerald-700">
+                        <i data-lucide="footprints" class="w-4 h-4"></i>
+                    </div>
+                    <h3 class="font-bold text-stone-800">Caminhada Atenta (Mindful Walking)</h3>
+                    <p class="text-xs text-stone-500 leading-relaxed">Caminhar 20 minutos ao ar livre prestando atenção aos passos, na respiração e na natureza reduz drasticamente a ruminação mental.</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-stone-200 space-y-2">
+                    <div class="w-8 h-8 bg-teal-100 rounded-lg flex items-center justify-center text-teal-700">
+                        <i data-lucide="activity" class="w-4 h-4"></i>
+                    </div>
+                    <h3 class="font-bold text-stone-800">Exercícios Aeróbicos</h3>
+                    <p class="text-xs text-stone-500 leading-relaxed">Atividades como corrida leve, natação ou pedalar queimam o excesso de adrenalina acumulado no corpo por causa da ansiedade.</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-stone-200 space-y-2">
+                    <div class="w-8 h-8 bg-amber-100 rounded-lg flex items-center justify-center text-amber-700">
+                        <i data-lucide="sun" class="w-4 h-4"></i>
+                    </div>
+                    <h3 class="font-bold text-stone-800">Exposição ao Sol Diária</h3>
+                    <p class="text-xs text-stone-500 leading-relaxed">Tomar de 15 a 20 minutos de sol pela manhã sintetiza Vitamina D e regula o ciclo circadiano, melhorando o sono e o humor.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. PLAYER DE SOM DA NATUREZA -->
+        <section id="som" class="bg-white border border-stone-200 rounded-3xl p-6 md:p-8 text-center space-y-4">
+            <h2 class="text-xl font-bold text-stone-800">Som Relaxante de Chuva</h2>
+            <p class="text-stone-500 text-sm max-w-md mx-auto">Sintetizado em tempo real pelo navegador (Web Audio API) para te ajudar a focar ou dormir.</p>
+            <div>
+                <button id="btn-chuva" class="bg-stone-50 border border-stone-200 hover:border-emerald-500 text-stone-700 px-6 py-3 rounded-2xl inline-flex items-center gap-3 transition-all">
+                    <i data-lucide="cloud-rain" class="text-emerald-600 w-5 h-5"></i>
+                    <span>Tocar / Parar Som de Chuva</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- 8. ORAÇÃO E REFLEXÃO -->
+        <section id="oracoes" class="bg-white border border-stone-200 rounded-3xl p-6 md:p-8 space-y-4">
+            <h2 class="text-2xl font-bold text-stone-800 flex items-center gap-2">
+                <i data-lucide="sparkles" class="text-amber-500 w-6 h-6"></i> Oração e Reflexão Espiritual do Dia
+            </h2>
+            <p id="texto-reflexao" class="text-stone-600 leading-relaxed bg-stone-50 p-5 rounded-2xl border border-stone-100 italic"></p>
+        </section>
+
+        <!-- 9. APOIO EMERGENCIAL CVV -->
+        <section id="apoio" class="bg-emerald-900 text-white rounded-3xl p-6 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="space-y-2 text-center md:text-left">
+                <h2 class="text-2xl font-bold">Precisa conversar com alguém agora?</h2>
+                <p class="text-emerald-200 text-sm max-w-xl">O Centro de Valorização da Vida (CVV) realiza apoio emocional e prevenção do suicídio, atendendo voluntária e gratuitamente todas as pessoas.</p>
+            </div>
+            <a href="https://www.cvv.org.br/" target="_blank" class="bg-white text-emerald-900 font-bold px-6 py-3 rounded-full shadow hover:bg-emerald-50 transition-colors shrink-0 flex items-center gap-2">
+                Ligue 188 ou Acesse o Chat
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-8 text-xs text-stone-400 border-t border-stone-200 mt-16">
+        <p>Refúgio da Mente &copy; Projeto de Saúde Mental, Acolhimento e Tecnologia</p>
+    </footer>
+
+    <!-- Lógica JavaScript Incorporada -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Inicializar Ícones
+            lucide.createIcons();
+
+            // Conteúdo Semanal Automático
+            const mensagensSemanais = {
+                0: { titulo: "Domingo de Paz", texto: "Desconecte-se das pressões da semana que virá. O hoje é o seu único momento presente." },
+                1: { titulo: "Segunda de Recomeço", texto: "Dê um passo de cada vez. Você não precisa resolver o mês inteiro no dia de hoje." },
+                2: { titulo: "Terça de Firmeza", texto: "Respeite seus limites. Dizer 'não' para o desgaste é dizer 'sim' para sua saúde." },
+                3: { titulo: "Quarta de Equilíbrio", texto: "Metade da semana. Lembre-se de fazer pausas conscientes ao longo do dia." },
+                4: { titulo: "Quinta de Acolhimento", texto: "Seja gentil com suas imperfeições. Você está fazendo o melhor que pode." },
+                5: { titulo: "Sexta de Leveza", texto: "Celebre suas pequenas vitórias da semana, por menores que pareçam aos olhos dos outros." },
+                6: { titulo: "Sábado de Restauração", texto: "Nossa mente precisa de descanso tanto quanto nosso corpo. Permita-se relaxar." }
+            };
+
+            const reflexoesSemanais = {
+                0: "Senhor/Universo, concede-me a serenidade para aceitar as coisas que não posso mudar e a coragem para transformar as que posso.",
+                1: "Que a luz da esperança renove minhas forças hoje. Que eu caminhe em paz, sem o peso da ansiedade do amanhã.",
+                2: "Que eu saiba olhar para mim com a mesma compaixão e afeto com que olho para quem eu amo.",
+                3: "Silencio minha mente para escutar a paz. Nenhum pensamento turbulento é maior que a minha capacidade de respirar.",
+                4: "Agradeço pelas lições do dia e me perdoo por qualquer falha. Amanhã é uma nova oportunidade.",
+                5: "Que a gratidão preencha os espaços vazios e afaste qualquer receio ou insegurança.",
+                6: "Entrego minhas preocupações e acolho o descanso. O meu espírito renasce no silêncio."
+            };
+
+            const hoje = new Date();
+            const diaSemana = hoje.getDay();
+
+            const opcoesData = { weekday: 'long', day: 'numeric', month: 'long' };
+            document.getElementById('data-atual').innerText = hoje.toLocaleDateString('pt-BR', opcoesData);
+
+            const msg = mensagensSemanais[diaSemana];
+            document.getElementById('titulo-mensagem').innerText = msg.titulo;
+            document.getElementById('corpo-mensagem').innerText = `"${msg.texto}"`;
+            document.getElementById('texto-reflexao').innerText = reflexoesSemanais[diaSemana];
+
+            // Respiração Guiada 4-4-4
+            const btnBreath = document.getElementById('btn-breath');
+            const breathStatus = document.getElementById('breath-status');
+            const breathTimer = document.getElementById('breath-timer');
+            const circleOuter = document.getElementById('circle-outer');
+            
+            let isBreathing = false;
+            let breathInterval = null;
+
+            btnBreath.addEventListener('click', () => {
+                if (isBreathing) {
+                    clearInterval(breathInterval);
+                    isBreathing = false;
+                    btnBreath.innerHTML = '<i data-lucide="play" class="w-4 h-4"></i> Iniciar Respiração';
+                    breathStatus.innerText = "Inspirar";
+                    breathTimer.innerText = "4";
+                    circleOuter.classList.remove('breath-inhale', 'breath-exhale');
+                    lucide.createIcons();
+                    return;
+                }
+
+                isBreathing = true;
+                btnBreath.innerHTML = '<i data-lucide="square" class="w-4 h-4"></i> Parar Respiração';
+                lucide.createIcons();
+
+                let step = 0;
+                let seconds = 4;
+
+                breathInterval = setInterval(() => {
+                    seconds--;
+                    breathTimer.innerText = seconds;
+
+                    if (seconds === 0) {
+                        step = (step + 1) % 3;
+                        seconds = 4;
+
+                        if (step === 0) {
+                            breathStatus.innerText = "Inspirar";
+                            circleOuter.classList.add('breath-inhale');
+                            circleOuter.classList.remove('breath-exhale');
+                        } else if (step === 1) {
+                            breathStatus.innerText = "Segurar";
+                        } else {
+                            breathStatus.innerText = "Exalar";
+                            circleOuter.classList.add('breath-exhale');
+                            circleOuter.classList.remove('breath-inhale');
+                        }
+                    }
+                }, 1000);
+            });
+
+            // Gerador de Som de Chuva (Web Audio API)
+            let audioCtx = null;
+            let noiseNode = null;
+
+            document.getElementById('btn-chuva').addEventListener('click', (e) => {
+                if (noiseNode) {
+                    noiseNode.stop();
+                    noiseNode = null;
+                    e.currentTarget.classList.remove('border-emerald-600', 'bg-emerald-50');
+                    return;
+                }
+
+                audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                const bufferSize = audioCtx.sampleRate * 2;
+                const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+                const data = buffer.getChannelData(0);
+
+                for (let i = 0; i < bufferSize; i++) {
+                    data[i] = Math.random() * 2 - 1;
+                }
+
+                noiseNode = audioCtx.createBufferSource();
+                noiseNode.buffer = buffer;
+                noiseNode.loop = true;
+
+                const filter = audioCtx.createBiquadFilter();
+                filter.type = 'lowpass';
+                filter.frequency.value = 800;
+
+                const gainNode = audioCtx.createGain();
+                gainNode.gain.value = 0.05;
+
+                noiseNode.connect(filter);
+                filter.connect(gainNode);
+                gainNode.connect(audioCtx.destination);
+
+                noiseNode.start();
+                e.currentTarget.classList.add('border-emerald-600', 'bg-emerald-50');
+            });
+        });
+    </script>
+</body>
+</html>
